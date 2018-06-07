@@ -12,6 +12,10 @@ import org.junit.Test;
 */ 
 public class BeanLifeCycleTest extends UnitTestBase {
 
+    public BeanLifeCycleTest() {
+
+    }
+
 /** 
 * 
 * Method: start() 
