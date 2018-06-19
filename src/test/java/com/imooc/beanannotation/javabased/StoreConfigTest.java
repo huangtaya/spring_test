@@ -27,7 +27,12 @@ public void testStringStore() throws Exception {
     System.out.println("test1 name:"+ test1.getClass().getName());
 
     MyDriverManager test2 = super.getBean("myDriverManager");
-} 
+}
+
+@Test
+public void testStringStoreTest() {
+    Store bean = super.getBean("stringStoreTest");
+}
 
 
 } 
